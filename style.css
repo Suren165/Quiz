@@ -1,0 +1,68 @@
+header {
+    
+    background-color: #fff;
+    box-shadow: 3px 3px 16px 2px rgb(77, 77, 77);
+    z-index: 666;
+    
+}
+
+
+header ul {
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    place-items: center;
+    min-height: 100px;
+}
+
+
+
+
+
+body {
+    background-image: url("bild.jpg");
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.decoration {
+    text-decoration: none;
+    color: black;
+    font-size: 4vh;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    transition: 300ms ease-in-out;
+}
+
+.decoration:hover {
+    font-size: 3vh;
+    
+}
+
+form {
+
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 20px ridge grey;
+    border-radius: 50px;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.answers label {
+
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.hidden {
+    display: none;
+}
